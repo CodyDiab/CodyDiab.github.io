@@ -1,15 +1,48 @@
-*{
+*{ 
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
     font-family: 'varela', sans-serif;
 }
 header{
     font-size: 40px;
-    text-align: left;
+    display: flex;
+    justify-content: start;
+}
+
+.mainpage{
+    display: flex;
+   
+    flex-wrap: wrap;
+    height: 90vh;
+    width: 100vw;
+}
+.hero{
+    background-image: url(../css/portfolio-image-pink.png);
+    display:flex;
+    
+    
+     width:95%;
+    
+     background-position:center;
+     align-items: flex-start;
 }
 .nav{
     font-size: 25px;
     writing-mode: vertical-rl;
     text-orientation: sideways-right;
-    display: inline-flex;
-    text-align: right;
-    padding:80px 1280px;
+    
+
+
+    
+}
+a{
+    color: black;
+}
+a:hover{
+    background: #cb13a6;
+
 }
