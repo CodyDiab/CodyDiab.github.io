@@ -15,7 +15,7 @@ header{
 
 .mainpage{
     display: flex;
-   
+   justify-content: center;
     flex-wrap: wrap;
     height: 90vh;
     width: 100vw;
@@ -24,7 +24,7 @@ header{
     background-image: url(../css/portfolio-image-pink.png);
     display:flex;
     
-    
+    background-size: cover;
      width:95%;
     
      background-position:center;
@@ -44,5 +44,13 @@ a{
 }
 a:hover{
     background: #cb13a6;
+    border-radius: 50%;
 
+}
+
+@media screen and (max-width:930px){
+    .header{
+        justify-content: center;
+        font-size: 65px;
+    }
 }
