@@ -11,6 +11,8 @@ header{
     font-size: 40px;
     display: flex;
     justify-content: start;
+  
+ 
 }
 
 .mainpage{
@@ -27,7 +29,7 @@ header{
     background-size: cover;
      width:95%;
     
-     background-position:right;
+     background-position:center;
     
      overflow: hidden;
 }
@@ -38,11 +40,9 @@ header{
 }
     
 
-.mainpage:hover .hero {
-    background-position: left;
-}
+
     
-}
+
 a{
     color: black;
 }
@@ -58,15 +58,153 @@ a:hover{
     font-size: 30px;
     display: flex;
     justify-content: space-evenly;
+    z-index: 5555;
 }
 
-@media screen and (max-width:930px){
+/* MyWork Gallery*/
+
+.flexgallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    height: 90%;
+    width: 80%;
+    padding-top: 25px;
+    
+}
+.flexgallery div{
+    margin:3px
+} 
+.flexgallery img{
+    border-radius:50%;
+    filter: grayscale(100%);
+}
+.flexgallery img:hover{
+    filter: unset;
+}
+.flexgallery div p{
+    background-color: rgb(203, 19, 166,0.5);
+    border-radius: 50%;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+.gallery1{
+    margin:3px
+   
+
+    
+}
+.gallery1 img{
+    max-width:500px;
+    max-height: 500px;
+   
+}
+.gallery2{
+    
+   
+   
+}
+.gallery2 img{
+    max-width:300px;
+    max-width:300px;
+    
+}
+.gallery3{
+    
+    
+    
+
+}
+.gallery3 img{
+    max-width: 300px;
+    max-height: 200px;
+   
+}
+.gallery4{
+    size:25%;
+    
+}
+.gallery4 img{
+    max-width:300px;
+    max-height: 200px;
+   
+}
+.gallery5{
+    size:25%;
+    
+}
+.gallery5 img{
+    max-width: 300px;
+    max-height: 200px;
+}   
+.gallery6{
+    size: 25%;
+    
+}
+.gallery6 img{
+    max-width: 300px;
+    max-height: 200px;
+}
+/*end gallery*/
+ /*contact*/
+ .contact-container{
+    text-align: center;
+    margin:8vw 5vw;
+    padding:20vw 30vw 20vw 30vw;
+    font-size: 30px;
+    transform:rotate(-30deg);
+    background: rgb(203, 19, 166,0.5);
+    border-radius: 80%;
+
+
+    
+ }
+ /*about section*/
+ .about-me{
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     flex-direction: column;
+     margin-top: 9vw;
+     background-color:rgb(203, 19, 166,0.5);
+     border-radius: 50%;
+
+ }
+ .about-me p{
+     text-align: center;
+ }
+ .about-me img{
+     object-fit:contain;
+     border-radius: 50%;
+     
+ }
+ span{
+     color: white;
+ }
+/*for smaller screens*/
+@media screen and (max-width:930px)
+ {
     .header{
         justify-content: center;
-        font-size: 65px;
+        font-size: small;
     }
     .nav{
         writing-mode: horizontal-tb;
         text-orientation: upright;
+       
+    }
+}
+@media screen and (max-width:575px) {
+    .header{
+        justify-content: center;
+        font-size: 20vw;
+    }
+    .nav{
+        writing-mode: horizontal-tb;
+        text-orientation: upright;
+        font-size: 40vw;
     }
 }
