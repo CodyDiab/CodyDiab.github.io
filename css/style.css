@@ -206,6 +206,12 @@ a:hover{
         text-orientation: upright;
        
     }
+    .contact-container{
+        align-items: center;
+    }
+    .contact-container a{
+        font-size: 20px;
+    }
 }
 @media only screen and (max-width:500px) 
 {
@@ -222,7 +228,7 @@ a:hover{
         transform:rotate(0deg);
         align-items:center ;
     
-        font-size:20px;
+        font-size:16px;
 
 
         
