@@ -39,7 +39,19 @@ header{
     text-orientation: sideways-right;
 }
     
+@keyframes animatedBackground {
+    from {background-position: 0 0;}
+    to { background-position: 100%;}
+}
 
+#animatedBack{
+    
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+
+    animation: animatedBackground 30s linear
+
+}
 
     
 
