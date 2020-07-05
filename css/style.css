@@ -41,7 +41,7 @@ header{
     
 @keyframes animatedBackground {
     from {background-position: 0 0;}
-    to { background-position: 100%;}
+    to { background-position: 200%;}
 }
 
 #animatedBack{
@@ -49,7 +49,7 @@ header{
     background-position: 0px 0px;
     background-repeat: repeat-x;
 
-    animation: animatedBackground 30s linear
+    animation: animatedBackground 60s linear
 
 }
 
