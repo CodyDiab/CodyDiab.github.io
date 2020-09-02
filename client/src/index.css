@@ -7487,6 +7487,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   height: 90vh;
   width: 100vw; }
 
+.component {
+  width: 95%; }
+
 header {
   font-size: 40px;
   display: flex;
@@ -7495,7 +7498,10 @@ header {
 .nav {
   font-size: 25px;
   writing-mode: vertical-rl;
-  text-orientation: sideways-right; }
+  text-orientation: sideways-right;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between; }
 
 .hero {
   background-image: url(./assets/portfolio-image-pink.png);
@@ -7522,7 +7528,9 @@ header {
     font-size: small; }
   .nav {
     writing-mode: horizontal-tb;
-    text-orientation: upright; } }
+    text-orientation: upright;
+    display: flex;
+    justify-content: space-around; } }
 
 @media only screen and (max-width: 500px) {
   .header {
@@ -7530,12 +7538,17 @@ header {
     font-size: 20vw; }
   .nav {
     writing-mode: horizontal-tb;
-    text-orientation: upright; } }
+    text-orientation: upright;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between; } }
 
 @media only screen and (max-height: 414px) {
   .nav {
     writing-mode: horizontal-tb;
-    text-orientation: upright; } }
+    text-orientation: upright;
+    display: flex;
+    justify-content: space-around; } }
 
 @keyframes spinAround {
   from {
