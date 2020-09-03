@@ -1,4 +1,5 @@
 /*! bulma.io v0.9.0 | MIT License | github.com/jgthms/bulma */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@367&display=swap");
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -7480,6 +7481,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
+.whole-page {
+  font-family: "Comfortaa", cursive; }
+
 .mainpage {
   display: flex;
   justify-content: center;
@@ -7494,6 +7498,11 @@ header {
   font-size: 40px;
   display: flex;
   justify-content: start; }
+
+.navbar-burger {
+  background-color: #cb13a669;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%; }
 
 .navbar-menu {
   font-size: 25px;
@@ -7529,22 +7538,20 @@ header {
   .header {
     justify-content: center;
     font-size: small; }
-  .navbar {
+  .navbar-menu {
     writing-mode: horizontal-tb;
     text-orientation: upright;
     display: flex;
     justify-content: space-around;
     top: 0;
     right: 0;
-    position: relative; }
-  .mainpage {
-    flex-direction: row-reverse; } }
+    position: relative; } }
 
 @media only screen and (max-width: 500px) {
   .header {
     justify-content: center;
     font-size: 20vw; }
-  .navbar {
+  .navbar-menu {
     writing-mode: horizontal-tb;
     text-orientation: upright;
     display: flex;
@@ -7552,21 +7559,17 @@ header {
     align-content: space-between;
     top: 0;
     right: 0;
-    position: relative; }
-  .mainpage {
-    flex-direction: row-reverse; } }
+    position: relative; } }
 
 @media only screen and (max-height: 414px) {
-  .navbar {
+  .navbar-menu {
     writing-mode: horizontal-tb;
     text-orientation: upright;
     display: flex;
     justify-content: space-around;
     top: 0;
     right: 0;
-    position: relative; }
-  .mainpage {
-    flex-direction: row-reverse; } }
+    position: relative; } }
 
 @keyframes spinAround {
   from {

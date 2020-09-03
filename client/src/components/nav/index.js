@@ -17,17 +17,14 @@ function Nav() {
     return(
 
    <nav className="navbar">
-    <div className="navbar-brand">
-    <Link to='/' className="navbar-item">
-      <h1 className="title is-1"> cody nabil diab</h1>
-     <h3 className="subtitle is-3">front-end developer</h3> 
-      </Link>
+    
+    
      <a role="button" onClick={toggleNav} className={`navbar-burger burger ${navActive && 'is-active'} `} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
-    </div>
+    
     <div className={`navbar-menu ${navActive && 'is-active'}`}>
         <div className="navbar-start">
         <a className="navbar-item" href={'My-Work'}>my work</a>
