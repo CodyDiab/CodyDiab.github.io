@@ -7512,6 +7512,9 @@ header {
   justify-content: space-around;
   align-content: space-between; }
 
+.navbar-menu:hover {
+  color: #cb13a669; }
+
 .hero {
   background-image: url(./assets/portfolio-image-pink.png);
   display: flex;
@@ -7532,7 +7535,40 @@ header {
   animation: animatedBackground 60s linear; }
 
 .gallery-image {
-  width: 100%; }
+  width: 100%;
+  background-size: cover; }
+
+.work-description {
+  margin-top: 35%;
+  padding-left: 5%;
+  margin-right: 20%;
+  margin-bottom: 0;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: none; }
+
+.gallery-image:hover .work-description {
+  display: inherit;
+  background-color: rgba(255, 255, 255, 0.849);
+  align-content: column; }
+
+.work-1 {
+  background-image: url(./assets/pen-name.png); }
+
+.work-2 {
+  background-image: url(./assets/scatterbrain.png); }
+
+.work-3 {
+  background-image: url(./assets/paper-locator.png); }
+
+.work-4 {
+  background-image: url(./assets/IRISscreenshot.png); }
+
+.work-5 {
+  background-image: url(./assets/git-it-done.png); }
+
+.work-6 {
+  background-image: url(./assets/runbuddy.png); }
 
 @media only screen and (max-width: 930px) {
   .header {
@@ -7872,7 +7908,7 @@ body {
   line-height: 1.5; }
 
 a {
-  color: #3273dc;
+  color: #cb13a669;
   cursor: pointer;
   text-decoration: none; }
   a strong {
@@ -7972,10 +8008,10 @@ table th {
     border-color: #b5b5b5;
     color: #363636; }
   .button:focus, .button.is-focused {
-    border-color: #3273dc;
+    border-color: #cb13a669;
     color: #363636; }
     .button:focus:not(:active), .button.is-focused:not(:active) {
-      box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25); }
+      box-shadow: 0 0 0 0.125em #cb13a669; }
   .button:active, .button.is-active {
     border-color: #4a4a4a;
     color: #363636; }
@@ -10282,7 +10318,7 @@ a.navbar-item,
   .navbar-link:hover,
   .navbar-link.is-active {
     background-color: #fafafa;
-    color: #3273dc; }
+    color: #cb13a669; }
 
 .navbar-item {
   flex-grow: 0;

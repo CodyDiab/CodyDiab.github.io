@@ -5,7 +5,12 @@
 $pinkthemecolor:#cb13a669;
 $themefont:'Comfortaa', cursive;
 
+
 //universal
+$link:$pinkthemecolor;
+$navbar-item-hover-color:$pinkthemecolor;
+$button-focus-border-color:$pinkthemecolor;
+$button-focus-box-shadow-color:$pinkthemecolor;
 .whole-page{
     font-family: $themefont;
 }
@@ -46,6 +51,9 @@ header{
     align-content: space-between;
     
 }
+.navbar-menu:hover {
+    color:$pinkthemecolor;
+}
 
 //Animated background
 .hero{
@@ -77,9 +85,49 @@ header{
 //Work styles
 .gallery-image{
     width:100%;
+    background-size: cover;
+}
+.work-description{
+    margin-top: 35%;
+    padding-left: 5%;
+    margin-right:20%;
+    margin-bottom: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+   
+    display:none;
 }
 
+.gallery-image:hover .work-description{
+    display:inherit;
+    background-color: rgba(255, 255, 255, 0.849);
+    align-content: column;
+   
+}
 
+.work-1{
+    background-image: url(./assets/pen-name.png) ;
+}
+
+.work-2{
+    background-image: url(./assets/scatterbrain.png) ;
+}
+
+.work-3{
+    background-image: url(./assets/paper-locator.png) ;
+}
+
+.work-4{
+    background-image: url(./assets/IRISscreenshot.png) ;
+}
+
+.work-5{
+    background-image: url(./assets/git-it-done.png) ;
+}
+
+.work-6{
+    background-image: url(./assets/runbuddy.png) ;
+}
 
 
 
