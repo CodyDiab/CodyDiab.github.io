@@ -10,50 +10,50 @@ function Work() {
         <CarouselProvider
         naturalSlideWidth={20}
         naturalSlideHeight={10}
-        totalSlides={6}
+        totalSlides={5}
       >
           <Slider className="card-image">
               <Slide className="gallery-image work-1"index={0}><div className="work-description">
                   <h1>Pen Name</h1>
                   <p>A MERN stack social writing platform</p>
                   <p>
-                  <a target="_blank" href="">Go to live application</a><br></br>
-                  <a target="_blank" href="">Go to GitHub repo</a>
+                  <a target="_blank" tagtet="_blank" rel="noopener noreferrer" href="https://protected-harbor-84928.herokuapp.com/">Go to live application</a><br></br>
+                  <a target="_blank" tagtet="_blank" rel="noopener noreferrer" href="https://github.com/CodyDiab/pen-name">Go to GitHub repo</a>
                   </p>
                   </div></Slide>
               <Slide className="gallery-image work-2" index={1}><div className="work-description">
                   <h1>ScatterBrain</h1>
                   <p>In browser web resource application</p>
                   <p>
-                  <a target="_blank" href="">Go to live application</a><br></br>
-                  <a  target="_blank" href="">Go to GitHub repo</a>
+                  <a target="_blank" tagtet="_blank" rel="noopener noreferrer" href="https://stormy-scrubland-17368.herokuapp.com/">Go to live application</a><br></br>
+                  <a  target="_blank" tagtet="_blank" rel="noopener noreferrer" href="https://github.com/CodyDiab/ScatterBrain">Go to GitHub repo</a>
                   </p>
                   </div></Slide>
               <Slide className="gallery-image work-3" index={2}><div className="work-description">
                   <h1>Paper Locator</h1>
                   <p>Web application for the location of paper products</p>
                   <p>
-                  <a target="_blank" href="">Go to live application</a><br></br>
-                  <a target="_blank" href="">Go to GitHub repo</a>
+                  <a target="_blank" tagtet="_blank" rel="noopener noreferrer" href="https://codydiab.github.io/dm-emergency-paper-locator/">Go to live application</a><br></br>
+                  <a target="_blank" tagtet="_blank" rel="noopener noreferrer" href="https://github.com/CodyDiab/dm-emergency-paper-locator">Go to GitHub repo</a>
                   </p>
                   </div></Slide>
               <Slide className="gallery-image work-4" index={3}><div className="work-description">
                   <h1>IRIS</h1>
                   <p>Global weather forcast </p>
                   <p>
-                  <a target="_blank" href="">Go to live application</a><br></br>
-                  <a  target="_blank" href="">Go to GitHub repo</a>
+                  <a target="_blank" tagtet="_blank" rel="noopener noreferrer" href="https://codydiab.github.io/IRIS-wapp/">Go to live application</a><br></br>
+                  <a  target="_blank" tagtet="_blank" rel="noopener noreferrer" href="https://github.com/CodyDiab/IRIS-wapp">Go to GitHub repo</a>
                   </p>
                   </div></Slide>
               <Slide className="gallery-image work-5" index={4}><div className="work-description">
                   <h1>Git it Done</h1>
                   <p>Open source repository search application</p>
                   <p>
-                  <a target="_blank" href="">Go to live application</a><br></br>
-                  <a target="_blank"  href="">Go to GitHub repo</a>
+                  <a target="_blank" tagtet="_blank" rel="noopener noreferrer" href="https://codydiab.github.io/git-it-done/">Go to live application</a><br></br>
+                  <a target="_blank" tagtet="_blank" rel="noopener noreferrer"  href="https://github.com/CodyDiab/Get-with-IT">Go to GitHub repo</a>
                   </p>
                   </div></Slide>
-              <Slide className="gallery-image work-6" index={5}><div className="work-description">
+              {/* <Slide className="gallery-image work-6" index={5}><div className="work-description">
                   <h1>Run Buddy</h1>
                   <p>Optimized UI implimentation</p>
                   <p>
@@ -61,7 +61,7 @@ function Work() {
                   <a target="_blank"  href="">Go to GitHub repo</a>
                   </p>
                   </div></Slide>
-              
+               */}
           </Slider>
           <div className="card-footer">
           <div className="card-footer-item">
