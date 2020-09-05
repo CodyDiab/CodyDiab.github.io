@@ -1,5 +1,5 @@
 import React,{useState} from "react"
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 
 
 
@@ -19,7 +19,7 @@ function Nav(props) {
    <nav className="navbar">
     
     
-     <button role="button" onClick={toggleNav} className={`navbar-burger burger ${navActive && 'is-active'} `} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+     <button  onClick={toggleNav} className={`navbar-burger burger ${navActive && 'is-active'} `} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>

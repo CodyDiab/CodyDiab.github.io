@@ -16,7 +16,7 @@ function Contact() {
             <p> 
             <a href="tel:254-749-3041">254-749-3041</a><br></br>
             <a href="mailto:emailcodydiab@gmail.com@example.com">emailcodydiab@gmail.com</a> <br></br>
-            <a href="https://github.com/CodyDiab" target="_blank">https://github.com/CodyDiab</a>
+            <a href="https://github.com/CodyDiab" target="_blank" rel="noopener noreferrer">https://github.com/CodyDiab</a>
             </p>
            </div>
         </div>

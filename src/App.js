@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import {BrowserRouter as Router, Route, Switch, HashRouter} from 'react-router-dom';
+// import {BrowserRouter as Router, Route, Switch, HashRouter} from 'react-router-dom';
 import Header from './components/header'
 import Nav from "./components/nav"
 import Animation from './components/animation'
@@ -25,7 +25,7 @@ function App() {
     }
   }
   return (
-    <Router>
+    // <Router>
       <div className="container whole-page">
     <Header handlePageChange={handlePageChange}/>
      <div className="mainpage container">
@@ -40,7 +40,7 @@ function App() {
         <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
      </div>
      </div>
-    </Router>
+    // </Router>
 
   );
 }
