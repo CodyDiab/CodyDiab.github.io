@@ -14,7 +14,8 @@ function About() {
              </figure>
            <div className="content">
             <p> 
-                Cody is a front end web developer located in Texas. Working from a design background while leveraging logic and utility to deliver a unique aesthetic along with a fluid user interface.
+                Cody is a front end web developer located in Texas. Working from a design background while leveraging logic and utility to deliver a unique aesthetic along with a fluid user interface. <br></br>
+                <a href="https://drive.google.com/file/d/17i5XfgmzZW4ute0xUBALsU0NORSc7TYc/view?usp=sharing "> View resume</a>
             </p>
            </div>
         </div>
